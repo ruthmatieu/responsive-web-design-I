@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5 {
 
 .container header nav a {
   text-decoration: none;
-  color: #333;
+  color: gray;
 }
 
 .container header nav .nav-links {
@@ -94,7 +94,35 @@ h1, h2, h3, h4, h5 {
 }
 
 .introduction .main-heading button {
-  padding: 5px 15px;
+  padding: 5px 40px;
   background-color: #FFF;
   color: #000;
+  border: 1px solid black;
+  cursor: pointer;
 }
+
+.introduction .main-heading button:hover {
+  background-color: #000;
+  color: #FFF;
+  transition: 0.5s;
+}
+
+.company-details {
+  display: flex;
+  flex-direction: row;
+  padding: 2% 0;
+}
+
+.company-details div{
+  line-height: 20px;
+}
+
+.middle-img {
+  width: 100%;
+}
+
+
+
+
+
+/**/
