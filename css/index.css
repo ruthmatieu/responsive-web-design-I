@@ -62,3 +62,39 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+.container {
+  margin: 2% 5%;
+}
+
+.container header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container header nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.container header nav .nav-links {
+  padding-top: 1%;
+}
+
+.introduction {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 5% 0;
+}
+
+.introduction .main-heading h1 {
+  font-size: 5rem;
+}
+
+.introduction .main-heading button {
+  padding: 5px 15px;
+  background-color: #FFF;
+  color: #000;
+}
