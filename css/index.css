@@ -67,6 +67,10 @@ h1, h2, h3, h4, h5 {
   margin: 2% 5%;
 }
 
+.container header nav .mobile-only {
+  display: none;
+}
+
 .container header nav {
   display: flex;
   justify-content: space-between;
@@ -127,6 +131,33 @@ footer {
 
 footer .copyright {
   text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: pink;
+  }
+
+  .container header nav .desktop-only {
+    display: none;
+  }
+
+  .container header nav .mobile-only {
+    display: block;
+  }
+
+  .introduction .image {
+    display: none;
+  }
+
+
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: yellow;
+  }
+
 }
 
 
