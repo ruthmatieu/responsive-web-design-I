@@ -121,6 +121,13 @@ h1, h2, h3, h4, h5 {
   width: 100%;
 }
 
+footer {
+  padding: 2% 0;
+}
+
+footer .copyright {
+  text-align: center;
+}
 
 
 
