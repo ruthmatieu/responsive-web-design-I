@@ -133,7 +133,7 @@ footer .copyright {
   text-align: center;
 }
 
-@media only screen and (max-width: 800px) {
+@media (max-width: 800px) {
   body {
     background-color: pink;
   }
@@ -144,6 +144,7 @@ footer .copyright {
 
   .container header nav .mobile-only {
     display: block;
+    margin: auto;
   }
 
   .introduction .image {
@@ -153,7 +154,7 @@ footer .copyright {
 
 }
 
-@media only screen and (max-width: 500px) {
+@media (max-width: 500px) {
   body {
     background-color: yellow;
   }
