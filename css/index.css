@@ -67,7 +67,7 @@ h1, h2, h3, h4, h5 {
   margin: 2% 5%;
 }
 
-.container header nav .mobile-only {
+.container header .mobile-only {
   display: none;
 }
 
@@ -134,29 +134,66 @@ footer .copyright {
 }
 
 @media (max-width: 800px) {
-  body {
-    background-color: pink;
-  }
 
-  .container header nav .desktop-only {
+  .container header .desktop-only {
     display: none;
   }
 
-  .container header nav .mobile-only {
+  .container header .mobile-only {
     display: block;
-    margin: auto;
+  }
+
+  .container header .mobile-only .logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3%;
+  }
+
+  .container header .mobile-only .links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 
   .introduction .image {
     display: none;
   }
 
-
 }
 
 @media (max-width: 500px) {
   body {
-    background-color: yellow;
+    background-color: white ;
+  }
+
+  .container header .mobile-only {
+
+  }
+
+  .container header .mobile-only .links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container header .mobile-only .nav-links {
+    border-bottom: 1px solid gray;
+  }
+
+  .company-details {
+    flex-direction: column;
+  }
+
+  .company-details .section-one, .section-two {
+    padding-bottom: 8%;
+  }
+
+  .company-details .section-three {
+    padding: 6% 0 2% 0;
+  }
+
+  footer .copyright {
+    padding-top: 4%;
   }
 
 }
